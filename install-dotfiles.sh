@@ -5,7 +5,7 @@ REPO_URL="https://github.com/eikster-dk/dotfiles"
 REPO_NAME="dotfiles"
 
 is_stow_installed() {
-  pacman -Qi "stow" &> /dev/null
+  pacman -Qi "stow" &>/dev/null
 }
 
 if ! is_stow_installed; then
@@ -28,7 +28,7 @@ if [ $? -eq 0 ]; then
   rm -rf ~/.config/nvim ~/.config/starship.toml ~/.local/share/nvim/ ~/.cache/nvim/ ~/.config/ghostty/config
 
   cd "$REPO_NAME"
-  # stow ghostty
+  stow -t $HOME ghostty nvim git
   echo "repository cloned and ready"
 else
   echo "Failed to clone the repository."
