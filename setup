@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./omarchy-cleanup.sh
+./omarchy-webapps.sh
+./install-stow.sh
+./prepare-local.sh
