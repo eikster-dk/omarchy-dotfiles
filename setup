@@ -5,4 +5,5 @@
 ./prepare-local.sh
 
 ./install-stow.sh
+./install-software.sh
 ./install-dotfiles.sh
