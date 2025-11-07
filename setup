@@ -2,5 +2,7 @@
 
 ./omarchy-cleanup.sh
 ./omarchy-webapps.sh
-./install-stow.sh
 ./prepare-local.sh
+
+./install-stow.sh
+./install-dotfiles.sh
