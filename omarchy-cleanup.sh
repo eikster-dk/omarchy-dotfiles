@@ -6,5 +6,11 @@ omarchy-webapp-remove Basecamp
 omarchy-webapp-remove WhatsApp
 omarchy-webapp-remove "Google Photos"
 omarchy-webapp-remove "Google Messages"
+omarchy-webapp-remove "Google Contacts"
 omarchy-webapp-remove "Zoom"
 omarchy-webapp-remove "X"
+
+omarchy-pkg-drop \
+  typora \
+  xournalpp \
+  claude-code
